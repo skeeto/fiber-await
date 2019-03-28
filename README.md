@@ -3,6 +3,9 @@
 This is an example of using fibers to await on any kernel object handle.
 Due to limitations of the Win32 API, only 64 coroutines can run at once.
 
+Main article:
+[Fibers: the Most Elegant Windows API](https://nullprogram.com/blog/2019/03/28/)
+
 ## API
 
 ```c
