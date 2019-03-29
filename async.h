@@ -28,7 +28,8 @@ void async_run(void);
 int async_start(void (*)(void *), void *);
 
 /**
- * Await on a kernel object, destroying it via CloseHandle() when done.
+ * Await on a kernel object.
+ * Destroys the handle via CloseHandle() when done.
  */
 void async_await(HANDLE);
 
